@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-corewar
+target: asm
+
+cmds:
+  - cmd: /Corewar/asm @@
+    filepath: /test.s
