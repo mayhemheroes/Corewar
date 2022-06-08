@@ -1,6 +1,6 @@
-project: rnshah9/mayhem-corewar
+project: corewar
 target: asm
 
 cmds:
-  - cmd: /Corewar/asm @@
+  - cmd: /Corewar/asm /test.s
     filepath: /test.s
