@@ -1,0 +1,11 @@
+project: corewar
+target: asm
+
+cmds:
+  # asm requires a `.s` extension, so Mayhem materializes each input at a fixed .s path.
+  - cmd: /mayhem/build/asm /tmp/input.s
+    filepath: /tmp/input.s
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/asm/testsuite
