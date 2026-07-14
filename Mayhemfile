@@ -1,0 +1,6 @@
+project: corewar
+target: asm
+
+cmds:
+  - cmd: /asm @@
+    filepath: /test.s
